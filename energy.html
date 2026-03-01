@@ -10,18 +10,30 @@
 <body>
     <header>
         <h1>Self-Care Simplified</h1>
-          <nav>
-            <a href="index.html">Home</a>
-            <a href="results.html">Results</a>
-            <a href="resources.html">Resources</a>
-        </nav>
     </header>
 
     <main>
         <section>
             <h2>Energy Check-in</h2>
-            <p>Once they select a mood they will be directed here to select an energy level</p>
+            <p>How much energy do you have today?</p>
+    
         </section>
+        <select id="energySelect">
+            <option value="">Select your current capacity</option>
+            <option value="none">None</option>
+            <option value="low">Low</option>
+            <option value="moderate">Moderate</option>
+            <option value="high">High</option>
+        </select>
+
+        <button id="energySubmitBtn">Get Suggestion</button>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="energy.html">Check-In</a>
+            <a href="results.html">Results</a>
+            <a href="resources.html">Resources</a>
+        </nav>
     </main>
 
     <footer>

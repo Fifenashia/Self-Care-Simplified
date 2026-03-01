@@ -10,11 +10,6 @@
 <body>
     <header>
         <h1>Self-Care Simplified</h1>
-        <nav>
-            <a href="energy.html">Check-In</a>
-            <a href="resources.html">Resources</a>
-            
-        </nav>
     </header>
 
     <main>
@@ -22,13 +17,27 @@
             <h2>Welcome</h2>
             <p>Landing Page where the user will select a button indicating what kind of mood they are feeling today</p>
         </section>
+        <select id="moodSelect">
+            <option value="">Select your current mood</option>
+            <option value="overwhelmed">Overwhelmed</option>
+            <option value="anxious">Anxious</option>
+            <option value="irritated">Irritated</option>
+            <option value="drained/exhausted">Drained / Exhausted</option>
+        </select>
+
+        <button id="moodNextBtn" type="button">Continue</button>
+
+         <nav>
+            <a href="index.html">Home</a>
+            <a href="energy.html">Check-In</a>
+            <a href="results.html">Results</a>
+            <a href="resources.html">Resources</a>
+        </nav>
     </main>
 
     <footer>
         <p>© 2025</p>
     </footer>
-    
-    <script src="js/main.js"></script>
-
+<script src="./js/index.js"></script>
 </body>
 </html>

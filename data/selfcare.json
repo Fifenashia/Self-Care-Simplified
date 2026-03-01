@@ -1,0 +1,41 @@
+[
+    {
+    "id": 1,
+    "mood": "overwhelmed",
+    "energy": "none",
+    "title": "Reduce Input Immediately",
+    "description": "Lower stimulation before doing anything else.",
+    "steps": [
+      "Put your phone face down or in another room.",
+      "Turn off one light or lower brightness.",
+      "Sit still for 2 minutes without adding new input."
+    ],
+    "tags": ["regulation", "sensory", "low-effort"]
+  },
+    {
+    "id": 2,
+    "mood": "overwhelmed",
+    "energy": "low",
+    "title": "Clear One Small Surface",
+    "description": "Reduce visual noise in one tiny area.",
+    "steps": [
+      "Choose one small space (desk corner, nightstand, sink).",
+      "Clear or wipe it.",
+      "Stop when finished — no expanding the task."
+    ],
+    "tags": ["environment", "visual-reset"]
+  },
+    {
+    "id": 3,
+    "mood":"overwhelmed",
+    "energy":"moderate",
+    "title":"Three-Item Reset",
+    "description": "Limit your brain to no more than three priorities",
+    "steps": [
+        "Write down everything swirling in your head.",
+        "Circle only three items.",
+        "Choose one and set a 10-minute timer."
+    ],
+    "tags": ["structure", "focus"]
+    }
+]
