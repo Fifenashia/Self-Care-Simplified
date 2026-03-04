@@ -4,38 +4,605 @@
     "mood": "overwhelmed",
     "energy": "none",
     "title": "Reduce Input Immediately",
-    "description": "Lower stimulation before doing anything else.",
-    "steps": [
-      "Put your phone face down or in another room.",
-      "Turn off one light or lower brightness.",
-      "Sit still for 2 minutes without adding new input."
-    ],
-    "tags": ["regulation", "sensory", "low-effort"]
+    "description": "If you can’t move much, start here.",
+    "instruction": "Lower stimulation before doing anything else.",
+    "task": "Put a cool washcloth over your eyes or the back of your neck.",
+    "tags": ["regulation", "low-effort"]
   },
-    {
+  {
     "id": 2,
     "mood": "overwhelmed",
-    "energy": "low",
-    "title": "Clear One Small Surface",
-    "description": "Reduce visual noise in one tiny area.",
-    "steps": [
-      "Choose one small space (desk corner, nightstand, sink).",
-      "Clear or wipe it.",
-      "Stop when finished — no expanding the task."
-    ],
-    "tags": ["environment", "visual-reset"]
+    "energy": "none",
+    "title": "Reduce Input Immediately",
+    "description": "If you can’t move much, start here.",
+    "instruction": "Lower stimulation before doing anything else.",
+    "task": "Play brown noise, rain sounds, or a familiar comfort show you’ve already seen.",
+    "tags": ["regulation", "low-effort"]
   },
-    {
+  {
     "id": 3,
-    "mood":"overwhelmed",
-    "energy":"moderate",
-    "title":"Three-Item Reset",
-    "description": "Limit your brain to no more than three priorities",
-    "steps": [
-        "Write down everything swirling in your head.",
-        "Circle only three items.",
-        "Choose one and set a 10-minute timer."
-    ],
-    "tags": ["structure", "focus"]
-    }
+    "mood": "overwhelmed",
+    "energy": "none",
+    "title": "Reduce Input Immediately",
+    "description": "If you can’t move much, start here.",
+    "instruction": "Lower stimulation before doing anything else.",
+    "task": "Wrap yourself in a weighted blanket and let your body feel contained.",
+    "tags": ["regulation", "low-effort"]
+  },
+{
+  "id": 4,
+  "mood": "overwhelmed",
+  "energy": "low",
+  "title": "Narrow the Field",
+  "description": "Slight capacity but fragile.",
+  "instruction": "Reduce the number of things competing for your attention.",
+  "task": "Light a candle or turn on one soft lamp to soften the room.",
+  "tags": ["low-effort", "environment", "calm"]
+},
+{
+  "id": 5,
+  "mood": "overwhelmed",
+  "energy": "low",
+  "title": "Narrow the Field",
+  "description": "Slight capacity but fragile.",
+  "instruction": "Reduce the number of things competing for your attention.",
+  "task": "Step outside for two minutes and feel actual air on your face.",
+  "tags": ["low-effort", "outside", "environment"]
+},
+{
+  "id": 6,
+  "mood": "overwhelmed",
+  "energy": "low",
+  "title": "Narrow the Field",
+  "description": "Slight capacity but fragile.",
+  "instruction": "Reduce the number of things competing for your attention.",
+  "task": "Name five things you see, four you feel, and three you hear.",
+  "tags": ["low-effort", "grounding", "regulation"]
+},
+{
+  "id": 7,
+  "mood": "overwhelmed",
+  "energy": "moderate",
+  "title": "Create Structure",
+  "description": "You have usable energy, but it's unfocused.",
+  "instruction": "Externalize the noise so your brain doesn't have to hold it all.",
+  "task": "Write down everything on your mind in a messy list. Do not organize it.",
+  "tags": ["cognitive", "reset", "clarity"]
+},
+{
+  "id": 8,
+  "mood": "overwhelmed",
+  "energy": "moderate",
+  "title": "Create Structure",
+  "description": "You have usable energy, but it's unfocused.",
+  "instruction": "Externalize the noise so your brain doesn't have to hold it all.",
+  "task": "Pick one task and set a five-minute timer. Stop when the timer ends.",
+  "tags": ["focus", "time-bound", "containment"]
+},
+{
+  "id": 9,
+  "mood": "overwhelmed",
+  "energy": "moderate",
+  "title": "Create Structure",
+  "description": "You have usable energy, but it's unfocused.",
+  "instruction": "Externalize the noise so your brain doesn't have to hold it all.",
+  "task": "Clear one small surface in front of you. Only that surface.",
+  "tags": ["environment", "reset", "visible-progress"]
+},
+{
+  "id": 10,
+  "mood": "overwhelmed",
+  "energy": "high",
+  "title": "Discharge Activation",
+  "description": "Your system is activated and needs a release valve.",
+  "instruction": "Move the excess energy through your body safely.",
+  "task": "Do 20 jumping jacks or run in place for one minute.",
+  "tags": ["movement", "release", "regulation"]
+},
+{
+  "id": 11,
+  "mood": "overwhelmed",
+  "energy": "high",
+  "title": "Discharge Activation",
+  "description": "Your system is activated and needs a release valve.",
+  "instruction": "Move the excess energy through your body safely.",
+  "task": "Shake out your arms and legs hard for 30 seconds.",
+  "tags": ["movement", "nervous-system", "release"]
+},
+{
+  "id": 12,
+  "mood": "overwhelmed",
+  "energy": "high",
+  "title": "Discharge Activation",
+  "description": "Your system is activated and needs a release valve.",
+  "instruction": "Move the excess energy through your body safely.",
+  "task": "Step outside and take ten slow, forceful exhales.",
+  "tags": ["breath", "regulation", "reset"]
+},
+
+
+{
+  "id": 13,
+  "mood": "anxious",
+  "energy": "none",
+  "title": "Find Comfort",
+  "description": "Your mind is racing, but your energy is low.",
+  "instruction": "Choose something gentle that helps your body feel safe.",
+  "task": "Take a 20 minute nap or rest with your eyes closed.",
+  "tags": ["comfort", "regulation", "low-effort"]
+},
+{
+  "id": 14,
+  "mood": "anxious",
+  "energy": "none",
+  "title": "Find Comfort",
+  "description": "Your mind is racing, but your energy is low.",
+  "instruction": "Choose something gentle that helps your body feel safe.",
+  "task": "Wrap yourself in a blanket like a burrito and rest quietly.",
+  "tags": ["comfort", "regulation", "low-effort"]
+},
+{
+  "id": 15,
+  "mood": "anxious",
+  "energy": "none",
+  "title": "Find Comfort",
+  "description": "Your mind is racing, but your energy is low.",
+  "instruction": "Choose something gentle that helps your body feel safe.",
+  "task": "Lie down in a dark, quiet room for a few minutes.",
+  "tags": ["comfort", "regulation", "low-effort"]
+},
+{
+  "id": 16,
+  "mood": "anxious",
+  "energy": "low",
+  "title": "Anchor to Now",
+  "description": "You can engage gently, but your thoughts are racing.",
+  "instruction": "Bring your attention to something real and concrete.",
+  "task": "Take a warm bath or shower.",
+  "tags": ["sensory", "grounding", "low-effort"]
+},
+{
+  "id": 17,
+  "mood": "anxious",
+  "energy": "low",
+  "title": "Anchor to Now",
+  "description": "You can engage gently, but your thoughts are racing.",
+  "instruction": "Bring your attention to something real and concrete.",
+  "task": "Listen to your favorite music.",
+  "tags": ["auditory", "focus", "low-effort"]
+},
+{
+  "id": 18,
+  "mood": "anxious",
+  "energy": "low",
+  "title": "Anchor to Now",
+  "description": "You can engage gently, but your thoughts are racing.",
+  "instruction": "Bring your attention to something real and concrete.",
+  "task": "Make a cup of your favorite hot beverage and enjoy it slowly.",
+  "tags": ["sensory", "grounding", "low-effort"]
+},
+{
+  "id": 19,
+  "mood": "anxious",
+  "energy": "moderate",
+  "title": "Engage a Sense",
+  "description": "Your system is elevating, but still responsive.",
+  "instruction": "Choose one sense and give it your full attention.",
+  "task": "Create a small comfort corner with soft blankets and calming sounds.",
+  "tags": ["sensory", "grounding"]
+},
+{
+  "id": 20,
+  "mood": "anxious",
+  "energy": "moderate",
+  "title": "Engage a Sense",
+  "description": "Your system is elevating, but still responsive.",
+  "instruction": "Choose one sense and give it your full attention.",
+  "task": "Take a few minutes to focus on the sounds around you.",
+  "tags": ["auditory", "grounding"]
+},
+{
+  "id": 21,
+  "mood": "anxious",
+  "energy": "moderate",
+  "title": "Engage a Sense",
+  "description": "Your system is elevating, but still responsive.",
+  "instruction": "Choose one sense and give it your full attention.",
+  "task": "Make tea or a simple drink and notice the smell before you sip.",
+  "tags": ["sensory", "grounding"]
+},
+{
+  "id": 22,
+  "mood": "anxious",
+  "energy": "high",
+  "title": "Channel the Surge",
+  "description": "Your body feels charged and needs direction.",
+  "instruction": "Give the energy a focused outlet.",
+  "task": "Set a two-minute timer and clean one small, specific area.",
+  "tags": ["action", "focus"]
+},
+{
+  "id": 23,
+  "mood": "anxious",
+  "energy": "high",
+  "title": "Channel the Surge",
+  "description": "Your body feels charged and needs direction.",
+  "instruction": "Give the energy a focused outlet.",
+  "task": "Take a brisk walk around the block.",
+  "tags": ["movement", "environment"]
+},
+{
+  "id": 24,
+  "mood": "anxious",
+  "energy": "high",
+  "title": "Channel the Surge",
+  "description": "Your body feels charged and needs direction.",
+  "instruction": "Give the energy a focused outlet.",
+  "task": "Step outside and take several slow breaths of fresh air.",
+  "tags": ["grounding", "environment"]
+},
+
+
+{
+  "id": 25,
+  "mood": "anger",
+  "energy": "none",
+  "title": "Cool Down First",
+  "description": "You're angry but emotionally drained.",
+  "instruction": "Give your body a moment to cool off before doing anything else.",
+  "task": "Drink a glass of cold water slowly.",
+  "tags": ["regulation", "cooling", "low-effort"]
+},
+{
+  "id": 26,
+  "mood": "anger",
+  "energy": "none",
+  "title": "Cool Down First",
+  "description": "You're angry but emotionally drained.",
+  "instruction": "Give your body a moment to cool off before doing anything else.",
+  "task": "Sit somewhere quiet and unclench your jaw and shoulders.",
+  "tags": ["regulation", "body-awareness", "low-effort"]
+},
+{
+  "id": 27,
+  "mood": "anger",
+  "energy": "none",
+  "title": "Cool Down First",
+  "description": "You're angry but emotionally drained.",
+  "instruction": "Give your body a moment to cool off before doing anything else.",
+  "task": "Take ten slow breaths and focus on the exhale.",
+  "tags": ["breath", "regulation", "low-effort"]
+},
+{
+  "id": 28,
+  "mood": "anger",
+  "energy": "low",
+  "title": "Create Space",
+  "description": "Irritation is present but manageable.",
+  "instruction": "Step away from the trigger for a few minutes.",
+  "task": "Step outside or move to a different room.",
+  "tags": ["environment", "reset"]
+},
+{
+  "id": 29,
+  "mood": "anger",
+  "energy": "low",
+  "title": "Create Space",
+  "description": "Irritation is present but manageable.",
+  "instruction": "Step away from the trigger for a few minutes.",
+  "task": "Take a short walk around your home or workspace.",
+  "tags": ["movement", "reset"]
+},
+{
+  "id": 30,
+  "mood": "anger",
+  "energy": "low",
+  "title": "Create Space",
+  "description": "Irritation is present but manageable.",
+  "instruction": "Step away from the trigger for a few minutes.",
+  "task": "Wash your hands with cool water and focus on the sensation.",
+  "tags": ["sensory", "grounding"]
+},
+{
+  "id": 31,
+  "mood": "anger",
+  "energy": "moderate",
+  "title": "Redirect the Energy",
+  "description": "Your frustration is building.",
+  "instruction": "Channel the energy into something constructive.",
+  "task": "Write down what you're feeling without editing yourself.",
+  "tags": ["expression", "release"]
+},
+{
+  "id": 32,
+  "mood": "anger",
+  "energy": "moderate",
+  "title": "Redirect the Energy",
+  "description": "Your frustration is building.",
+  "instruction": "Channel the energy into something constructive.",
+  "task": "Clean or organize one small area nearby.",
+  "tags": ["action", "focus"]
+},
+{
+  "id": 33,
+  "mood": "anger",
+  "energy": "moderate",
+  "title": "Redirect the Energy",
+  "description": "Your frustration is building.",
+  "instruction": "Channel the energy into something constructive.",
+  "task": "Stretch your arms, neck, and shoulders slowly.",
+  "tags": ["movement", "release"]
+},
+{
+  "id": 34,
+  "mood": "anger",
+  "energy": "high",
+  "title": "Burn Off the Surge",
+  "description": "Your system is highly activated.",
+  "instruction": "Release the energy safely through movement.",
+  "task": "Do push-ups, jumping jacks, or run in place for one minute.",
+  "tags": ["movement", "release"]
+},
+{
+  "id": 35,
+  "mood": "anger",
+  "energy": "high",
+  "title": "Burn Off the Surge",
+  "description": "Your system is highly activated.",
+  "instruction": "Release the energy safely through movement.",
+  "task": "Time to Dance! Put on music and move your body.",
+  "tags": ["movement", "environment"]
+},
+{
+  "id": 36,
+  "mood": "anger",
+  "energy": "high",
+  "title": "Burn Off the Surge",
+  "description": "Your system is highly activated.",
+  "instruction": "Release the energy safely through movement.",
+  "task": "Shake out your arms and legs for 30 seconds.",
+  "tags": ["movement", "nervous-system"]
+},
+
+
+{
+  "id": 37,
+  "mood": "sadness",
+  "energy": "none",
+  "title": "Seek Soft Comfort",
+  "description": "You feel heavy and don’t have much energy.",
+  "instruction": "Choose something gentle that helps you feel cared for.",
+  "task": "Get into bed or onto the couch and let your body fully rest.",
+  "tags": ["comfort", "low-effort", "regulation"]
+},
+{
+  "id": 38,
+  "mood": "sadness",
+  "energy": "none",
+  "title": "Seek Soft Comfort",
+  "description": "You feel heavy and don’t have much energy.",
+  "instruction": "Choose something gentle that helps you feel cared for.",
+  "task": "Hold a pillow or stuffed animal close for a few minutes.",
+  "tags": ["comfort", "low-effort", "sensory"]
+},
+{
+  "id": 39,
+  "mood": "sadness",
+  "energy": "none",
+  "title": "Seek Soft Comfort",
+  "description": "You feel heavy and don’t have much energy.",
+  "instruction": "Choose something gentle that helps you feel cared for.",
+  "task": "Put on a familiar comfort show and let it keep you company.",
+  "tags": ["comfort", "low-effort", "focus"]
+},
+{
+  "id": 40,
+  "mood": "sadness",
+  "energy": "low",
+  "title": "Add a Little Warmth",
+  "description": "You have a little capacity, but everything feels heavy.",
+  "instruction": "Do one small thing that adds comfort or warmth.",
+  "task": "Make a warm drink and take a few slow sips.",
+  "tags": ["comfort", "sensory", "low-effort"]
+},
+{
+  "id": 41,
+  "mood": "sadness",
+  "energy": "low",
+  "title": "Add a Little Warmth",
+  "description": "You have a little capacity, but everything feels heavy.",
+  "instruction": "Do one small thing that adds comfort or warmth.",
+  "task": "Put on your softest or coziest clothes.",
+  "tags": ["comfort", "sensory", "low-effort"]
+},
+{
+  "id": 42,
+  "mood": "sadness",
+  "energy": "low",
+  "title": "Add a Little Warmth",
+  "description": "You have a little capacity, but everything feels heavy.",
+  "instruction": "Do one small thing that adds comfort or warmth.",
+  "task": "Step outside for two minutes and let the air hit your face.",
+  "tags": ["environment", "reset", "low-effort"]
+},
+{
+  "id": 43,
+  "mood": "sadness",
+  "energy": "moderate",
+  "title": "Gentle Lift",
+  "description": "You have enough energy for a small reset.",
+  "instruction": "Choose one small action that helps your body feel less stuck.",
+  "task": "Take a short shower and let the water reset you.",
+  "tags": ["sensory", "regulation", "reset"]
+},
+{
+  "id": 44,
+  "mood": "sadness",
+  "energy": "moderate",
+  "title": "Gentle Lift",
+  "description": "You have enough energy for a small reset.",
+  "instruction": "Choose one small action that helps your body feel less stuck.",
+  "task": "Go for a short walk, even if it’s just to the end of the driveway.",
+  "tags": ["movement", "environment", "reset"]
+},
+{
+  "id": 45,
+  "mood": "sadness",
+  "energy": "moderate",
+  "title": "Gentle Lift",
+  "description": "You have enough energy for a small reset.",
+  "instruction": "Choose one small action that helps your body feel less stuck.",
+  "task": "Tidy one small surface so the room feels a little lighter.",
+  "tags": ["environment", "focus", "reset"]
+},
+{
+  "id": 46,
+  "mood": "sadness",
+  "energy": "high",
+  "title": "Move the Weight",
+  "description": "Your feelings are strong and need an outlet.",
+  "instruction": "Give your body a safe way to move through the emotion.",
+  "task": "Put on one song that matches your mood and let yourself feel it.",
+  "tags": ["auditory", "comfort", "release"]
+},
+{
+  "id": 47,
+  "mood": "sadness",
+  "energy": "high",
+  "title": "Move the Weight",
+  "description": "Your feelings are strong and need an outlet.",
+  "instruction": "Give your body a safe way to move through the emotion.",
+  "task": "Go for a brisk walk and let your body carry some of the feeling.",
+  "tags": ["movement", "release", "environment"]
+},
+{
+  "id": 48,
+  "mood": "sadness",
+  "energy": "high",
+  "title": "Move the Weight",
+  "description": "Your feelings are strong and need an outlet.",
+  "instruction": "Give your body a safe way to move through the emotion.",
+  "task": "Do a quick reset: change your sheets or make your bed.",
+  "tags": ["environment", "reset", "action"]
+},
+{
+  "id": 49,
+  "mood": "peaceful",
+  "energy": "none",
+  "title": "Rest in the Calm",
+  "description": "Your mind feels quiet and your energy is low.",
+  "instruction": "Notice the calm without trying to change it.",
+  "task": "Watch the movement of shadows or light in the room for a minute.",
+  "tags": ["mindfulness", "observation"]
+},
+{
+  "id": 50,
+  "mood": "peaceful",
+  "energy": "none",
+  "title": "Rest in the Calm",
+  "description": "Your mind feels quiet and your energy is low.",
+  "instruction": "Notice the calm without trying to change it.",
+  "task": "Listen closely to the quietest sound you can hear.",
+  "tags": ["mindfulness", "auditory"]
+},
+{
+  "id": 51,
+  "mood": "peaceful",
+  "energy": "none",
+  "title": "Rest in the Calm",
+  "description": "Your mind feels quiet and your energy is low.",
+  "instruction": "Notice the calm without trying to change it.",
+  "task": "Place a hand on your chest and feel your breathing for a moment.",
+  "tags": ["body-awareness", "mindfulness"]
+},
+{
+  "id": 52,
+  "mood": "peaceful",
+  "energy": "low",
+  "title": "Notice the Moment",
+  "description": "You feel calm and present.",
+  "instruction": "Take a moment to appreciate the calm you're feeling.",
+  "task": "Look out a window and notice three things you haven't paid attention to before.",
+  "tags": ["mindfulness", "environment"]
+},
+{
+  "id": 53,
+  "mood": "peaceful",
+  "energy": "low",
+  "title": "Notice the Moment",
+  "description": "You feel calm and present.",
+  "instruction": "Take a moment to appreciate the calm you're feeling.",
+  "task": "Write down one good thing that happened today.",
+  "tags": ["reflection"]
+},
+{
+  "id": 54,
+  "mood": "peaceful",
+  "energy": "low",
+  "title": "Notice the Moment",
+  "description": "You feel calm and present.",
+  "instruction": "Take a moment to appreciate the calm you're feeling.",
+  "task": "Step outside and take one deep breath of fresh air.",
+  "tags": ["environment", "breath"]
+},
+{
+  "id": 55,
+  "mood": "peaceful",
+  "energy": "moderate",
+  "title": "Support the Balance",
+  "description": "You feel steady and capable.",
+  "instruction": "Do one small thing that supports your well-being.",
+  "task": "Water a plant or check on something living nearby.",
+  "tags": ["environment", "care"]
+},
+{
+  "id": 56,
+  "mood": "peaceful",
+  "energy": "moderate",
+  "title": "Support the Balance",
+  "description": "You feel steady and capable.",
+  "instruction": "Do one small thing that supports your well-being.",
+  "task": "Send a short message to someone you appreciate.",
+  "tags": ["connection"]
+},
+{
+  "id": 57,
+  "mood": "peaceful",
+  "energy": "moderate",
+  "title": "Support the Balance",
+  "description": "You feel steady and capable.",
+  "instruction": "Do one small thing that supports your well-being.",
+  "task": "Prepare a simple snack and enjoy it slowly.",
+  "tags": ["self-care"]
+},
+{
+  "id": 58,
+  "mood": "peaceful",
+  "energy": "high",
+  "title": "Build on the Calm",
+  "description": "You feel energized and balanced.",
+  "instruction": "Use your energy to do something positive for yourself.",
+  "task": "Put on a favorite song and dance around for a minute.",
+  "tags": ["movement", "joy"]
+},
+{
+  "id": 59,
+  "mood": "peaceful",
+  "energy": "high",
+  "title": "Build on the Calm",
+  "description": "You feel energized and balanced.",
+  "instruction": "Use your energy to do something positive for yourself.",
+  "task": "Open a window and let fresh air into the room.",
+  "tags": ["environment", "reset"]
+},
+{
+  "id": 60,
+  "mood": "peaceful",
+  "energy": "high",
+  "title": "Build on the Calm",
+  "description": "You feel energized and balanced.",
+  "instruction": "Use your energy to do something positive for yourself.",
+  "task": "Start a small task you've been meaning to do.",
+  "tags": ["action", "momentum"]
+}
 ]

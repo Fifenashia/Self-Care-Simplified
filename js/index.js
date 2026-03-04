@@ -4,12 +4,12 @@ const moodNextBtn = document.getElementById("moodNextBtn");
 moodNextBtn.addEventListener("click", () => {
     console.log("Mood dropdown value is:", moodSelect.value);
 
-    const selectMood = moodSelect.value;
+    const selectedMood = moodSelect.value;
 
-    if (!selectMood) {
+    if (!selectedMood) {
         alert("Please select your current mood.");
         return;
     }
-    localStorage.setItem("selectMood", selectMood);
+    localStorage.setItem("selectedMood", selectedMood);
     window.location.href = "energy.html";
 });
