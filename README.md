@@ -1,13 +1,67 @@
 ## Self-Care Simplified
 
 ## Overview
+
+## Description
 Self-Care Simplified is designed to support overwhelmed users in moments of stress without requiring emotional processing or reflection. Users select their current mood and energy level from drop-down menus, and the app responds with a positive affirmation pulled from an external API along with one small, actionable self-care task tailored to their current state. The goal is to help users decide one next step to reduce overwhelm in the moment. The app also includes a dedicated mental health and crisis resources page, providing supportive information and links.
 
+## Project Organization
+| Page | Description |
+|-----|-------------|
+| Landing Page | Introduces the app and allows the user to begin the check-in |
+| Mood Page | User selects their current mood |
+| Energy Page | User selects energy level |
+| Results Page | Displays suggested self-care task |
+| Resources Page | Lists mental health support resources |
+
+# How to Download and Run the Project
+Follow the steps below to run the application locally.
+
+### 1. Install Git (if you do not already have it)
+Download Git from:
+https://git-scm.com/downloads
+Git allows you to download repositories from GitHub.
+
+### 2. Clone the Repository
+Open a terminal or command prompt and run:
+git clone https://github.com/Fifenashia/Self-Care-Simplified.git
+This will download the project files to your computer.
+
+### 3. Navigate to the Project Folder
+Move into the project directory:
+cd Self-Care-Simplified
+
+### 4. Open the Project in a Code Editor
+You can open the folder in any code editor.
+Example using Visual Studio Code:
+code .
+
+### 5. Run the Application
+Because the project loads JSON data using the Fetch API, it should be run through a local server instead of opening the HTML file directly.
+
+#### Use VS Code Live Server (Recommended)
+1. Install the **Live Server** extension in VS Code
+2. Open the project folder
+3. Right-click `index.html`
+4. Select **Open with Live Server**
+The application will automatically open in your browser.
+
+## Usage
+1. Start on the landing page.
+2. Select your current **mood**.
+3. Select your **energy level**.
+4. The app will display a personalized self-care suggestion.
+5. A positive affirmation will also be displayed from an external API.
+6. Users can navigate to the **Resources page** for mental health support links.
+
 ## Features
-- Analyze Data Stored in Arrays/Objects: Self-care suggestions are stored in a custom JSON data set and analyzed using JavaScript logic. The app filters and displays suggestions based on the user’s selected mood and energy level.
-- Validate User Input: Users must select a mood and an energy level before progressing through the app. Invalid or incomplete input is prevented from advancing or being saved.
-- Function with Multiple Input Parameters: A JavaScript function accepts two input parameters (mood and energy level) and returns an appropriate self-care suggestion based on those inputs.
-- Persist Data to Local Storage: Users can save favorite self-care suggestions to local storage, which remain accessible after page refresh or reload.
+• Mood + energy selection system to personalize suggestions
+• JSON-based self-care dataset that separates content from the interface
+• JavaScript filtering logic to match user input with appropriate tasks
+• Randomized task selection within each mood/energy category
+• Positive affirmation pulled from an external API
+• Crisis and mental health resources page
+• Ability to save favorite suggestions using localStorage
 
 ## Technologies Used
 - HTML
@@ -17,25 +71,11 @@ Self-Care Simplified is designed to support overwhelmed users in moments of stre
 - LocalStorage
 - External Affirmations API
 
-## Project Structure
-Self-Care-Simplified/
-│
-├── index.html
-├── style.css
-├── script.js
-├── data/
-│   └── selfcare.json
-│
-├── resources.html
-└── README.md
-
 ## API Integration
-Describe API usage here.
+In Progress
 
 ## Research and AI Assistance
-The self-care strategies used in this project were informed by commonly referenced approaches in emotional regulation research, including sensory grounding techniques, nervous system calming strategies, environmental simplification, and controlled physical movement for releasing excess activation. These methods are frequently used in mental health and behavioral regulation contexts to help reduce immediate distress and restore a sense of stability.
-
-AI tools were used during the research and development process to help locate relevant psychological literature and explore possible self-care strategies connected to those research themes. The AI assistance helped identify supporting research topics and generate potential self-care suggestions based on those findings. The final mood framework, energy-level model, and curated list of self-care tasks were reviewed, refined, and organized by the author to ensure they aligned with the design goals of the application.
+I researched emotional regulation techniques commonly used in mental health resources such as grounding exercises, behavioral activation, and calming sensory strategies. AI tools were used during brainstorming to help explore possible self-care ideas connected to those approaches. I reviewed and refined the final task list to ensure it fit the goals of the app and provided small, manageable actions.
 
 ## Note
 This application is intended as a self-care support tool and is not a substitute for professional mental health care.
@@ -67,9 +107,7 @@ https://positivepsychology.com/savoring/
 Psychology Today – Articles on stress, anxiety, and emotional regulation
 https://www.psychologytoday.com
 
-## Installation
-1. Clone the repository
-2. Open index.html in browser
+
 
 
 
