@@ -1,6 +1,13 @@
 ## Self-Care Simplified
 
 ## Overview
+Many wellness tools present long lists of activities that can feel overwhelming when someone is already stressed. This project explores a simpler approach by narrowing the user experience to three steps:
+
+Select mood
+Select energy level
+Receive one suggested self-care activity
+
+The application also includes a mental health resources page with crisis support information and helpful links.
 
 ## Description
 Self-Care Simplified is designed to support overwhelmed users in moments of stress without requiring emotional processing or reflection. Users select their current mood and energy level from drop-down menus, and the app responds with a positive affirmation pulled from an external API along with one small, actionable self-care task tailored to their current state. The goal is to help users decide one next step to reduce overwhelm in the moment. The app also includes a dedicated mental health and crisis resources page, providing supportive information and links.
@@ -13,6 +20,17 @@ Self-Care Simplified is designed to support overwhelmed users in moments of stre
 | Energy Page | User selects energy level |
 | Results Page | Displays suggested self-care task |
 | Resources Page | Lists mental health support resources |
+
+## Capstone Requirements Fulfilled
+| Requirement | Implementation |
+|-------------|---------------|
+| Analyze data stored in arrays or objects | Self-care activities are stored in a custom JSON dataset. JavaScript loads this data and analyzes it to find tasks that match the user’s selected mood and energy level. |
+| Retrieve data using JavaScript | The application loads the JSON dataset using the Fetch API and converts it into a JavaScript object for processing. |
+| Use conditional logic | JavaScript checks the user’s selected mood and energy values and filters the dataset to return matching suggestions. |
+| Use multiple input parameters | Mood and energy selections are used together to determine which self-care tasks are appropriate for the user. |
+| Persist data using local storage | The user’s selected mood and energy values are saved in localStorage so they can be accessed on the results page. |
+| Use an external API | The application retrieves positive affirmations from an external affirmations API and displays them alongside the suggested self-care activity. |
+| Responsive design | The interface is designed using Flexbox and media queries to support both mobile screens and larger browser displays. |
 
 # How to Download and Run the Project
 Follow the steps below to run the application locally.
@@ -55,21 +73,21 @@ The application will automatically open in your browser.
 6. Users can navigate to the **Resources page** for mental health support links.
 
 ## Features
-• Mood + energy selection system to personalize suggestions
-• JSON-based self-care dataset that separates content from the interface
-• JavaScript filtering logic to match user input with appropriate tasks
-• Randomized task selection within each mood/energy category
-• Positive affirmation pulled from an external API
-• Crisis and mental health resources page
-• Ability to save favorite suggestions using localStorage
+Mood + energy selection system to personalize suggestions
+JSON-based self-care dataset that separates content from the interface
+JavaScript filtering logic to match user input with appropriate tasks
+Randomized task selection within each mood/energy category
+Positive affirmation pulled from an external API
+Crisis and mental health resources page
+Ability to save favorite suggestions using localStorage
 
 ## Technologies Used
-- HTML
-- CSS (Flexbox, Media Queries)
-- JavaScript
-- Fetch API
-- LocalStorage
-- External Affirmations API
+HTML
+CSS (Flexbox, Media Queries)
+JavaScript
+Fetch API
+LocalStorage
+External Affirmations API
 
 ## API Integration
 In Progress
