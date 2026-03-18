@@ -5,7 +5,6 @@ async function loadSelfCareData () {
 //try and catch blocks help catch errors!
     try {
         const response = await fetch ("./data/selfcare.json")
-
         const json = await response.json(); 
         return json;
 
@@ -23,8 +22,6 @@ async function displaySelfCareData () {
     const energy = localStorage.getItem("selectedEnergy");
 
     //once you load self care data and and get the selected mood and energy- we will want to filter data for matching tasks
-    //remember that filter creates a new array with all elements that pass the test
-    //review ternary and equality operators 
     //if no tasks match, log message and stop
 
 
@@ -50,7 +47,6 @@ const instruction = document.getElementById("instruction");
 const task = document.getElementById("task");
 
 //finish by putting the chosen task data into those DOM elements
-//review textContent
 
 title.textContent = suggestion.title;
 description.textContent = suggestion.description;

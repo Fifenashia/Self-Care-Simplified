@@ -1,4 +1,4 @@
-//Grab your elements from index.html
+//Grab your html elements from index.html
 const moodSelect = document.getElementById("moodSelect");
 const moodNextBtn = document.getElementById("moodNextBtn");
 
@@ -14,8 +14,14 @@ moodNextBtn.addEventListener("click", () => {
     }
 //save the mood selection in local storage
     localStorage.setItem("selectedMood", selectedMood);
+
+//send user to the next page one the selection is stored and keep it in the event listener!
     window.location.href = "energy.html";
 });
+
+
+
+
 
 //External API - start by fetching the url where the api is and convert to json 
 async function loadAdvice() {
