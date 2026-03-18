@@ -1,8 +1,7 @@
-//goals include loading the self care data json and converting to an object
-
+//we need to load the self care data from the json using async function
 async function loadSelfCareData () {
 
-//try and catch blocks help catch errors!
+//First you need to load the self care data json and convert it to a JavaScript object, try and catch blocks catch errors!
     try {
         const response = await fetch ("./data/selfcare.json")
         const json = await response.json(); 
@@ -12,19 +11,17 @@ async function loadSelfCareData () {
         console.log("Error loading selfcare data", error);
     }
 }
-
+//we need to display it
 async function displaySelfCareData () {
     const selfCareData = await loadSelfCareData();
 
-    //once we have the json file as an object- we need to grab the stored mood and energy stored locally (check the html pages to ensure correct)
+//once we have the json file as an object- we need to grab the stored mood and energy stored locally (check the html pages to ensure correct)
 
     const mood =localStorage.getItem("selectedMood");
     const energy = localStorage.getItem("selectedEnergy");
 
     //once you load self care data and and get the selected mood and energy- we will want to filter data for matching tasks
-    //if no tasks match, log message and stop
-
-
+    //if no tasks match, log message and stop 
     const matchingTasks = selfCareData.filter (item => item.mood === mood && item.energy === energy);
     if (matchingTasks.length === 0) {
         console.log("No matches found.");

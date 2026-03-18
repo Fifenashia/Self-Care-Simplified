@@ -20,9 +20,6 @@ moodNextBtn.addEventListener("click", () => {
 });
 
 
-
-
-
 //External API - start by fetching the url where the api is and convert to json 
 async function loadAdvice() {
      try {
