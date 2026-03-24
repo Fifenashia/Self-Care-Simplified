@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Self-Care Simplified</title>
-      <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
@@ -14,23 +14,26 @@
 
     <main>
         <section>
-                <p>When everything feels like too much, it can be hard to know where to start. This space helps you take one small step forward.</p>
-                <p>Start by choosing how you're feeling. Then select your energy level, and you’ll get a simple self-care suggestion. You can also explore resources if you need extra support.</p>
+            <p>When everything feels like too much, it can be hard to know where to start. This space helps you take one small step forward.</p>
         </section>
-        <select id="moodSelect">
-            <option value="">Select your current mood</option>
-            <option value="overwhelmed">Overwhelmed</option>
-            <option value="anxious">Anxious</option>
-            <option value="anger">Angry</option>
-            <option value="sadness">Sad</option>
-            <option value="peaceful">Peaceful</option>
-        </select>
+       
+        <section class="card">
+            <label for="moodSelect">Start by choosing how you're feeling. Then select your energy level, and you’ll get a simple self-care suggestion. You can also explore resources if you need extra support.</label>
+            <select id="moodSelect">
+                <option value="">Select your current mood</option>
+                <option value="overwhelmed">Overwhelmed</option>
+                <option value="anxious">Anxious</option>
+                <option value="anger">Angry</option>
+                <option value="sadness">Sad</option>
+                <option value="peaceful">Peaceful</option>
+            </select>
 
-        <button id="moodNextBtn" type="button">Continue</button>
-
-        <section class="advice-card">
+            <button id="moodNextBtn" type="button">Continue</button>
+        </section>
+        
+        <section>
             <h4>Today’s unsolicited advice — take what helps</h4>
-            <p id = "advice">Loading...</p>
+            <p id="advice">Loading...</p>
         </section>
  
         <nav>
@@ -42,6 +45,7 @@
         <p>© 2025</p>
         <p>This application is intended as a self-care support tool and is not a substitute for professional mental health care.</p>
     </footer>
-<script src="./js/index.js"></script>
+
+    <script src="./js/index.js"></script>
 </body>
 </html>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Self-Care Simplified</title>
-      <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
@@ -14,19 +14,22 @@
 
     <main>
         <section>
-            <h2>Energy Check-in</h2>
-            <p>How much energy do you have today?</p>
-    
+            <h2>Energy Check-In</h2>
+            <p>Select your energy level so we can give you a self-care suggestion that feels manageable today.</p>
         </section>
-        <select id="energySelect">
-            <option value="">Select your current capacity</option>
-            <option value="none">None</option>
-            <option value="low">Low</option>
-            <option value="moderate">Moderate</option>
-            <option value="high">High</option>
-        </select>
 
-        <button id="energySubmitBtn">Get Suggestion</button>
+        <section class="card">
+            <label for="energySelect" class="sr-only">Choose your energy level</label>
+            <select id="energySelect">
+                <option value="">How much energy do you have today?</option>
+                <option value="none">None</option>
+                <option value="low">Low</option>
+                <option value="moderate">Moderate</option>
+                <option value="high">High</option>
+            </select>
+
+            <button id="energySubmitBtn">Get Suggestion</button>
+        </section>
 
         <nav>
             <a href="index.html">Home</a>
