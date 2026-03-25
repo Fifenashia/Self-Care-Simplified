@@ -34,9 +34,10 @@ Self-Care Simplified was created for moments when everything feels like too much
 # How to Download and Run the Project
 Follow the steps below to run the application locally.
 
-### 1. Install Git (if you do not already have it)
+### 1. Install Git (if needed)
 Download Git from:
 https://git-scm.com/downloads
+
 Git allows you to download repositories from GitHub.
 
 ### 2. Clone the Repository
@@ -56,12 +57,19 @@ code .
 ### 5. Run the Application
 Because the project loads JSON data using the Fetch API, it should be run through a local server instead of opening the HTML file directly.
 
-#### Use VS Code Live Server (Recommended)
+### Option 1: Use VS Code Live Server (Recommended)
 1. Install the **Live Server** extension in VS Code
 2. Open the project folder
 3. Right-click `index.html`
 4. Select **Open with Live Server**
 The application will automatically open in your browser.
+
+### Option 2: Run from the Terminal with npx
+This option works without the Live Server extension, as long as Node.js is installed.
+You can install Node.js here if needed: https://nodejs.org/
+1. Open a terminal in the project folder
+2. Run: npx http-server
+3. Open the local URL shown in the terminal in your browser
 
 ## Usage
 1. Start on the landing page.

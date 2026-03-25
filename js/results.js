@@ -1,7 +1,6 @@
-//we need to load the self care data from the json using async function
 async function loadSelfCareData () {
 
-//First you need to load the self care data json and convert it to a JavaScript object, try and catch blocks catch errors!
+//First you need to load the self care data json and convert it to a JavaScript object
     try {
         const response = await fetch ("./data/selfcare.json")
         const json = await response.json(); 
