@@ -1,125 +1,127 @@
-[
+  [
     {
     "id": 1,
     "mood": "overwhelmed",
     "energy": "none",
-    "title": "Reduce Input Immediately",
-    "description": "If you can’t move much, start here.",
-    "instruction": "Lower stimulation before doing anything else.",
-    "task": "Put a cool washcloth over your eyes or the back of your neck.",
+    "title": "Find a Little Relief",
+    "description": "Everything feels like too much right now.",
+    "instruction": "Start with one small thing that helps your body settle.",
+    "task": "Lay a cool washcloth over your eyes or the back of your neck and go still for a minute.",
     "tags": ["regulation", "low-effort"]
   },
   {
     "id": 2,
     "mood": "overwhelmed",
     "energy": "none",
-    "title": "Reduce Input Immediately",
-    "description": "If you can’t move much, start here.",
-    "instruction": "Lower stimulation before doing anything else.",
-    "task": "Play brown noise, rain sounds, or a familiar comfort show you’ve already seen.",
+    "title": "Find a Little Relief",
+    "description": "Everything feels like too much right now.",
+    "instruction": "Start with one small thing that helps your body settle.",
+    "task": "Put on brown noise, rain sounds, or a comfort show that asks nothing from you.",
     "tags": ["regulation", "low-effort"]
   },
   {
     "id": 3,
     "mood": "overwhelmed",
     "energy": "none",
-    "title": "Reduce Input Immediately",
-    "description": "If you can’t move much, start here.",
-    "instruction": "Lower stimulation before doing anything else.",
-    "task": "Wrap yourself in a weighted blanket and let your body feel contained.",
+    "title": "Find a Little Relief",
+    "description": "Everything feels like too much right now.",
+    "instruction": "Start with one small thing that helps your body settle.",
+    "task": "Wrap up in a weighted blanket and hide there like a very tired burrito.",
     "tags": ["regulation", "low-effort"]
   },
-{
-  "id": 4,
-  "mood": "overwhelmed",
-  "energy": "low",
-  "title": "Narrow the Field",
-  "description": "Slight capacity but fragile.",
-  "instruction": "Reduce the number of things competing for your attention.",
-  "task": "Light a candle or turn on one soft lamp to soften the room.",
-  "tags": ["low-effort", "environment", "calm"]
-},
-{
-  "id": 5,
-  "mood": "overwhelmed",
-  "energy": "low",
-  "title": "Narrow the Field",
-  "description": "Slight capacity but fragile.",
-  "instruction": "Reduce the number of things competing for your attention.",
-  "task": "Step outside for two minutes and feel actual air on your face.",
-  "tags": ["low-effort", "outside", "environment"]
-},
-{
-  "id": 6,
-  "mood": "overwhelmed",
-  "energy": "low",
-  "title": "Narrow the Field",
-  "description": "Slight capacity but fragile.",
-  "instruction": "Reduce the number of things competing for your attention.",
-  "task": "Name five things you see, four you feel, and three you hear.",
-  "tags": ["low-effort", "grounding", "regulation"]
-},
+  {
+    "id": 4,
+    "mood": "overwhelmed",
+    "energy": "low",
+    "title": "Make Things Softer",
+    "description": "You have a little energy, but not much to spare.",
+    "instruction": "Choose one gentle thing that makes the moment feel easier.",
+    "task": "Put your phone down for five minutes and sit with one drink, one blanket, or one quiet thing.",
+    "tags": ["low-effort", "environment", "calm"]
+  },
+  {
+    "id": 5,
+    "mood": "overwhelmed",
+    "energy": "low",
+    "title": "Make Things Softer",
+    "description": "You have a little energy, but not much to spare.",
+    "instruction": "Choose one gentle thing that makes the moment feel easier.",
+    "task": "Step outside for two minutes and let the air remind you that the world is bigger than this moment.",
+    "tags": ["low-effort", "outside", "environment"]
+  },
+  {
+    "id": 6,
+    "mood": "overwhelmed",
+    "energy": "low",
+    "title": "Make Things Softer",
+    "description": "You have a little energy, but not much to spare.",
+    "instruction": "Choose one gentle thing that makes the moment feel easier.",
+    "task": "Make yourself a drink you like and hold it with both hands for a minute before doing anything else.",
+    "tags": ["low-effort", "grounding", "regulation"]
+  },
 {
   "id": 7,
   "mood": "overwhelmed",
   "energy": "moderate",
-  "title": "Create Structure",
-  "description": "You have usable energy, but it's unfocused.",
-  "instruction": "Externalize the noise so your brain doesn't have to hold it all.",
-  "task": "Write down everything on your mind in a messy list. Do not organize it.",
+  "title": "Give Your Mind a Place to Land",
+  "description": "You have some energy, but your thoughts are all over the place.",
+  "instruction": "Take one small step that helps things feel less jumbled.",
+  "task": "Write down everything on your mind in a messy list. No sorting, no fixing, just get it out.",
   "tags": ["cognitive", "reset", "clarity"]
 },
 {
   "id": 8,
   "mood": "overwhelmed",
   "energy": "moderate",
-  "title": "Create Structure",
-  "description": "You have usable energy, but it's unfocused.",
-  "instruction": "Externalize the noise so your brain doesn't have to hold it all.",
-  "task": "Pick one task and set a five-minute timer. Stop when the timer ends.",
+  "title": "Give Your Mind a Place to Land",
+  "description": "You have some energy, but your thoughts are all over the place.",
+  "instruction": "Take one small step that helps things feel less jumbled.",
+  "task": "Pick one task, set a five-minute timer, and let that be enough for now.",
   "tags": ["focus", "time-bound", "containment"]
 },
 {
   "id": 9,
   "mood": "overwhelmed",
   "energy": "moderate",
-  "title": "Create Structure",
-  "description": "You have usable energy, but it's unfocused.",
-  "instruction": "Externalize the noise so your brain doesn't have to hold it all.",
-  "task": "Clear one small surface in front of you. Only that surface.",
+  "title": "Give Your Mind a Place to Land",
+  "description": "You have some energy, but your thoughts are all over the place.",
+  "instruction": "Take one small step that helps things feel less jumbled.",
+  "task": "Clear one small surface near you and stop there. A tiny reset still counts.",
   "tags": ["environment", "reset", "visible-progress"]
 },
+
 {
   "id": 10,
   "mood": "overwhelmed",
   "energy": "high",
-  "title": "Discharge Activation",
-  "description": "Your system is activated and needs a release valve.",
-  "instruction": "Move the excess energy through your body safely.",
+  "title": "Let the Energy Move",
+  "description": "You have a lot of energy in your system right now.",
+  "instruction": "Give it somewhere to go before it turns on you.",
   "task": "Do 20 jumping jacks or run in place for one minute.",
   "tags": ["movement", "release", "regulation"]
 },
+
 {
   "id": 11,
   "mood": "overwhelmed",
   "energy": "high",
-  "title": "Discharge Activation",
-  "description": "Your system is activated and needs a release valve.",
-  "instruction": "Move the excess energy through your body safely.",
-  "task": "Shake out your arms and legs hard for 30 seconds.",
+  "title": "Let the Energy Move",
+  "description": "You have a lot of energy in your system right now.",
+  "instruction": "Give it somewhere to go before it turns on you.",
+  "task": "Shake out your arms and legs like a wet little creature for 30 seconds.",
   "tags": ["movement", "nervous-system", "release"]
 },
+
 {
   "id": 12,
   "mood": "overwhelmed",
   "energy": "high",
-  "title": "Discharge Activation",
-  "description": "Your system is activated and needs a release valve.",
-  "instruction": "Move the excess energy through your body safely.",
-  "task": "Step outside and take ten slow, forceful exhales.",
+  "title": "Let the Energy Move",
+  "description": "You have a lot of energy in your system right now.",
+  "instruction": "Give it somewhere to go before it turns on you.",
+  "task": "Step outside and take ten slow, strong exhales.",
   "tags": ["breath", "regulation", "reset"]
 },
-
 
 {
   "id": 13,
@@ -241,7 +243,6 @@
   "task": "Step outside and take several slow breaths of fresh air.",
   "tags": ["grounding", "environment"]
 },
-
 
 {
   "id": 25,
